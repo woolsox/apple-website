@@ -1,0 +1,79 @@
+/* GLOBAL FONT SETTINGS */
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* MAIN CONTAINER */
+
+section {
+    position: relative;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-image: url(iphone-background.jpg);
+    background-size: cover;
+}
+
+/* NAV STYLING */
+
+.nav-ul {
+    margin: 0;
+    padding: 20px;
+}
+
+.nav-bar {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(50, 50, 50);
+}
+
+.nav-item {
+    margin: 0px 10px;
+    padding: 0 40px;
+    color: white;
+    list-style: none;
+    display: inline-flex;
+}
+
+/* MAIN CONTENT STYLING */
+
+.header-content {
+}
+
+/* FOOTER STYLING */
+
+#footer {
+    display: inline-block;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-content {
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+}
+
+.footer-content li {
+    display: inline-flex;
+    padding: 0 40px;
+    list-style: none;
+    margin: 10px;
+}
+
+.footer-content a {
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(50, 50, 50)
+}
+
+ul {
+    margin: 0;
+}
+
+
